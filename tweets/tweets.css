@@ -10,7 +10,7 @@ body{margin:0; padding:0;}
   display: inline-block;
 }
 .library li{
-  width:30rem;
+  width:35rem;
   max-width:90vw;
   height: 94vh;
   overflow-y:scroll;
