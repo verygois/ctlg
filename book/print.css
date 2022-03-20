@@ -1,0 +1,63 @@
+
+#portrait {
+    position: relative;
+    z-index:-1;
+    overflow:hidden;
+    width:100%;
+    height:100vw;
+  }
+  #portrait img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #portrait img {
+    min-width: 100%;
+    height: 100%;
+  }
+  
+  #who {
+    position: relative;
+    top:0; left:0;
+    height:41vw;
+  }
+  .title {
+    width:90%;
+    max-width:90%;
+    padding:12.5vw 0;
+  }
+  .title rb {
+    font-size: 4vw;
+    color:#000;
+    text-shadow: #fff 1px 1px;
+    transform: scale(0.75,2);
+    letter-spacing: 0.2rem;
+  }
+  .title rt {
+    font-size: 2vw;
+  }
+  .infomation {
+    position:absolute;
+    bottom:0;
+    width:90%;
+    max-width:90%;
+    background-color:rgba(255,255,255,0);
+    margin:0.5rem auto;
+    padding: 0 5%;
+    text-align: left;
+    border:none;
+  }
+  
+  .qr {
+    position:absolute;
+    top:0; right:0;
+    border:none;
+    display:inline-block;
+    height:25%;
+    padding: 7vw;
+  }
+  
+  .no_print {
+    display:none;
+  }
